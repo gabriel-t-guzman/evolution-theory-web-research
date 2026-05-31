@@ -1,0 +1,43 @@
+\babel@toc {portuguese}{}\relax 
+\contentsline {chapter}{\numberline {1}Introdução}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Fundamentos da Teoria da Evolução}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}A variabilidade intraespecífica}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Seleção natural}{2}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Principios da seleção natural}{3}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Seleção sexual}{3}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Leis da variação}{4}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Efeito do uso ou desuso de partes}{4}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Aclimatação}{4}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Isolamento geográfico}{4}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Divergência e convergência de caracteres}{5}{section.2.5}%
+\contentsline {chapter}{\numberline {3}A Genética e o Processo Evolutivo}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Mutações genéticas}{6}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Efeitos controversiais}{7}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Recombinação genética e variabilidade}{7}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Seleçâo natural moderna e genética de populações}{8}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Seleçâo artificial}{8}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Evidências Fósseis e Morfológicas da Evolução}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introdução e Importância de evidências fósseis e morfológicas}{9}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Importância de evidências fisícas para a teoria como um todo}{9}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Formas as quais são utilizadas essas evidências na prática}{9}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Evidências Morfológicas}{10}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Morfologia}{10}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Estruturas homólogas}{10}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Estruturas análogas}{12}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}A Ontogenia}{13}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Métodos de estudo da Ontogenia}{13}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}Morfologia Molecular}{14}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Conclusão sobre Morfologia}{15}{subsection.4.2.7}%
+\contentsline {section}{\numberline {4.3}Evidências Fósseis}{15}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Fósseis de transição}{15}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}O Archaeopteryx}{16}{subsection.4.3.2}%
+\contentsline {chapter}{\numberline {5}A Evolução nas Espécies Contemporâneas}{17}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Experimento com moscas da fruta (Drosophila melanogaster)}{17}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Porque estes animais ?}{17}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}O Experimento de Seleção Artificial com Drosophilas}{18}{subsection.5.1.2}%
+\contentsline {subsubsection}{Seleção Artificial e Transmissão de Características}{18}{section*.6}%
+\contentsline {subsubsection}{Seleção de Características Específicas}{18}{section*.7}%
+\contentsline {subsubsection}{Seleção de Características Quantitativas}{19}{section*.8}%
+\contentsline {subsubsection}{Seleção de Comportamentos}{19}{section*.9}%
+\contentsline {subsubsection}{Seleção de Resistência a Drogas ou Químicos}{19}{section*.10}%
+\contentsline {subsection}{\numberline {5.1.3}Conclusões}{19}{subsection.5.1.3}%
