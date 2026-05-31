@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fundamentos</title>
+        <!-- Bootstrap minified CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <!--Personal styles-->
+        <link rel="stylesheet" href="css/style_page_geral.css">
+    </head>
+    <body>
+
+        <!--barra de navegacao-->    
+        <nav class="navbar navbar-expand-lg bg-black bg-gradient" style="--bs-bg-opacity: .6;">
+            <div class="container-fluid">
+                <!--HOME -->
+                <div class="navbar-brand"> 
+                    <a class="text-decoration-none text-dark" href="index.html" target="_blank">
+                        <img class="d-inline-block mx-3" src="images/lio.png" alt="ND" width="30" height="30"><b>Inicio</b></a>
+                </div>
+
+                <!--Sublinks-->
+                <div class="navbar-nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item mx-5"><a  class="nav-link active" href="fundamentos.html">Fundamentos</a></li>
+                        <li class="nav-item mx-5"><a  class="nav-link active" href="genetica.html" target="_blank">Genética</a></li>
+                        <li class="nav-item mx-5"><a  class="nav-link active" href="evidencias.html" target="_blank">Evidências</a></li>
+                        <li class="nav-item mx-5"><a  class="nav-link active" href="contemporaneos.html" target="_blank">Evolução atual</a></li>
+                    </ul>
+                </div>
+                <!-- ABOUT -->
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active mx-5" href="about.html" target="_blank"><b> About</b></a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- CONTEUDO-->
+
+        <div class="container-fluid" style="background-image: url('images/index2.png'); background-size: cover; background-position: center center;">
+            <div class="row">
+                <!-- indice navbar-->
+                <div class="col-md-2 p-0 m-0">
+                </div>
+
+                <div class="col-md-2 p-0 m-0" style="position:fixed">
+                    <nav id="navbar-example3" class="position-sticky top-0 h-100 flex-column align-items-stretch p-2">
+
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link text-black" href="#item-1">Variabilidade intraespecifica</a>
+                           
+                            <a class="nav-link text-black" href="#item-2">Seleção natural</a>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link ms-3 my-1 text-black" href="#item-2-1">Principios da seleção natural</a>
+                            </nav>
+
+                            <a class="nav-link text-black" href="#item-3">Seleção sexual</a>
+                            <a class="nav-link text-black" href="#item-4">Leis da variação</a>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link ms-3 my-1 text-black" href="#item-4-1">Efeito do uso ou desuso de partes</a>
+                                <a class="nav-link ms-3 my-1 text-black" href="#item-4-2">Aclimatação</a>
+                                <a class="nav-link ms-3 my-1 text-black" href="#item-4-3">Isolamento geográfico</a>
+                            </nav>
+                            <a class="nav-link text-black" href="#item-5">Divergência e convergência de caracteres</a>
+
+                        </nav>
+                    </nav>
+                </div>        
+                <!-- conteudo em si mesmo-->
+                <div class="col-md-10 m-0 p-5 offset-md-2">
+                    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0" style="background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px;">
+                        <div class="mb-4">
+                            <h4 class="display-1 text-center">Fundamentos da Teoria da Evolução</h4>
+                            
+                        </div>
+                        <div id="item-1">
+                            <h4>Variabilidade Intraespecifica</h4>
+                            <p>No Darwinismo clássico a variabilidade intraespecífica entre os indivíduos de uma população era fundamental, pois ela fornecia a (materia-prima) sobre a qual a seleção natural atuaria. Essas diferenças nas características dos indivíduos não eram vistas por Darwin como sendo criadas por um mecanismo explícito, mas sim como variações que surgiam em uma população.</p>
+                        </div>
+                        
+                        <div id="item-2">
+                            <h4>Seleção natural</h4>
+                            <figure class="figure bg-white border border-3 float-end" style=" width: 500px; height: 415px; margin-right : 100px; margin-left : 30px">
+                                <img class="figure-img img-fluid" src="images/darwinfinches.jpg" alt="none">
+                                <figcaption class="figure-caption text-center">Tentilhões de Darwin</figcaption>
+                            </figure>
+                            <p>A seleção natural é um dos principais mecanismos de evolução propostos por Charles Darwin em "A Origem das Espécies" \cite{darwin.origin.2008}. O processo natural ocorre quando indivíduos dentro de uma população possuem variações nas suas características (como tamanho, cor, resistência a doenças), e algumas dessas variações oferecem uma vantagem de sobrevivência e reprodução em determinado ambiente. Indivíduos com características vantajosas têm maior probabilidade de sobreviver, se reproduzir e transmitir essas características para as próximas gerações. Ao longo de muitas gerações resulta em mudanças significativas nas populações, levando à adaptação das espécies ao ambiente. Um exemplo clássico da seleção natural ocurreu nas <b>ilhas Galápagos</b>, onde Darwin observou que as espécies de tentilhões variavam em tamanho e forma do bico.</p>   
+                        </div>
+                        <div id="item-2-1">
+                            <h5 class="text-decoration-underline">Principios da seleção natural</h5>
+                            
+                            <ul>
+                                <p><b> Luta pela sorevivência</b> : Os recursos, como alimento, espaço e parceiros reprodutivos, são limitados, gerando competição entre os indivíduos, por exemplo num espaço com pouca água as plantas competem pela pouca quantidade disponível.
+                                </p>
+                                <p><b>Sobrevivência dos mais aptos</b> : Apenas indivíduos com características que conferem vantagens específicas no ambiente (como a capacidade de lutar, escapar de predadores ou resistir a doenças), terão mais chances de sobreviver até a maturidade e se reproduzir, transmitindo essas características para seus descendentes.</p>
+                                <p><b>Acúmulo gradual de características favoráveis</b> :A união sequencial de características ventajosas (por gerações) de varios indivíduos, ocasionará que os descendentes estejam melhor adaptados e dotados de múltiples características favoravéis. Destacando que em ocasiôes os individuos podem não possuir características adaptativas ao ambiente, mas sim características que <i>facilitam</i> sua reprodução.</p>
+                            </ul>
+                        </div>
+                        <div id="item-3">
+                            <h4>Seleção sexual</h4>
+                            <p>Por vezes, as características associadas com a sobrevivência e adaptação não são as que garantem a preservação de uma espécie, mas sim as ligadas com a atração sexual de fémeas. Esta <i>luta</i> não acaba com a morte do contediente mais fraco, mas com a redução do número dos seus descendentes (ou a inexistência dos mesmos). A selecção sexual é por isso menos rigorosa que a selecção natural. Na natureza ocorre nos chifres dos veados, o esporão dos galos, as cores vivas nas aves pequenas, danças e cantos em outras espécies de aves.</p>
+                        </div>
+                        <div id="item-4">
+                            <h4>Leis da variação</h4>
+                            <p>As leis da variação propostas por Charles Darwin são princípios que explicam como as diferenças entre indivíduos de uma espécie surgem e como essas diferenças alimentam o processo evolutivo. Darwin declarou: "<i>As alterações estruturais, tão complexas e inumeráveis, que podemos observar em toda a natureza, não podem ter sido todas simplesmente causadas por este tipo de acção.</i>", ou seja, a seleção natural possui maior relevância, porém deve agir em simultaneidade com as leis da variação.</p>
+                        </div>
+                        <div>
+                            <figure class="figure border border-3 float-end bg-white" style=" width: 500px; height: 415px; margin-right : 100px; margin-left : 30px">
+                                <img class="figure-img img-fluid" src="images/isolamento2.png" alt="none">
+                                <figcaption class="figure-caption text-center">Processo de isolamento geográfico</figcaption>
+                            </figure>
+                        </div>
+                        <div id="item-4-1">
+                            <h5>Efeito do uso ou desuso de partes</h5>    
+                            <p>O uso ou desuso de orgãos e partes do corpo continuado ao longo de gerações da mesma espécie, refletem uma mudança na descendencia, seja desenvolvendo os músculos associados, ou atrofiando-os. Aclarando que este conceito deve entender-se como um subordinado da seleção natural, se o uso ou desuso for beneficioso para a sobrevivência da espécie uma mudança ocorrerá. Exemplificando: se a cauda de um rato for cortada seu descendente obviamente nascera com uma cauda normal, pois as mudanças não são inmediatas nem arbitrárias.</p>
+                        </div>
+                        <div id="item-4-2">
+                            <h5>Aclimatação</h5>    
+                            <p>É extremamente comum encontrarmos espécies do mesmo género a habitar em países quentes e em países
+frios. Se considerarmos que todas as espécies de um género derivam de uma mesma forma parental, temos de supor que as espécies tiveram de passar por um processo de aclimatação ao longo das gerações. A adaptação de cada espécie ao clima do meio em que vive é evidente: as espécies do árctico, ou mesmo de um clima temperado,não conseguem aguentar um clima tropical, e vice-versa.</p>
+                        </div>
+                        <div id="item-4-3">
+                            <h5>Isolamento geográfico</h5>    
+                            <p>Numa área confinada, ou isolada, desde que não seja muito grande, as condições de vida, orgânicas e inorgânicas, são geralmente uniformes em todo o território. Assim, a selecção natural tenderá a modificar todos os indivíduos variáveis de uma espécie da mesma maneira. Nestas áreas, por estarem fechadas, o cruzamento com os habitantes dos territórios vizinhos é impossível. O isolamento permite que uma variedade nova se aperfeiçoe lentamente, como mostrado na imagem, sem constrangimentos temporais.</p>
+                        </div>
+                            <figure class="figure border border-3 float-end bg-white" style=" width: 500px; height: 290px; margin-right : 100px; margin-left : 30px">
+                                <img class="figure-img img-fluid" src="images/gencia2.png" alt="none">
+                                <figcaption class="figure-caption text-center">Divergência e convergência</figcaption>
+                            </figure>
+                        <div>
+                        </div>
+                        <div id="item-5" style="margin-bottom:120px">
+                            <h4>Divergência e convergência de caracteres</h4>    
+                            <p>Na divergência seres vivos que, aparentemente, são diferentes podem apresentar semelhanças anatómicas, orgãos homólogos, que podem sugerir a existência de um ancestral comum, com um plano estrutural idêntico aos seus ascendentes. que por divisão territorial ou mudança do ambiente adaptaram-se a outro meio. <br> Por outro lado na convergência seres vivos de diferentes espécies sem um ancestro comun, desenvolvem orgãos análogos, adaptados ao ambiente onde habitam.</p>
+                        </div>
+                  
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Rodape aeternum-->
+        <footer class="bg-black text-white text-center py-3">
+            <div class="container-fluid" style="background-size: cover;">
+                <div class="row align-items-stretch">
+                    <div class="col-md-4 d-flex flex-column">
+                        <h5>Recursos :</h5>
+                        <p><a class="link text-decoration-none text-white" href="https://getbootstrap.com/" target="_blank">Bootstrap</a></p>
+                    </div>
+                    <div class="col-md-4 d-flex flex-column">
+                        <h5>Local:</h5>
+                        <p>Campus Universitário de Santiago</p><p> 3810-193 Aveiro</p>
+                    </div>
+                    <div class="col-md-4 d-flex flex-column">
+                        <h5>Contactos :</h5>
+                        <p>+58 293102123</p>
+                        <p> +55 131412821</p>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <p style="font-size:14pt;">© 2025 Evolução das espécies. Direitos reservados.</p>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+
+</html>
